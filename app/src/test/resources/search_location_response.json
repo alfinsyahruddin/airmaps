@@ -1,0 +1,45 @@
+{
+  "candidates": [
+    {
+      "formatted_address": "Jl. Jenderal Sudirman No.Kav. 1, RT.1/RW.8, Karet Tengsin, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10220, Indonesia",
+      "geometry": {
+        "location": {
+          "lat": -6.203742999999999,
+          "lng": 106.8204953
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -6.202478870107277,
+            "lng": 106.8214762298927
+          },
+          "southwest": {
+            "lat": -6.205178529892721,
+            "lng": 106.8187765701073
+          }
+        }
+      },
+      "name": "Wisma 46"
+    },
+    {
+      "formatted_address": "Jl. Jenderal Sudirman No.Kav. 1, RT.1/RW.8, Karet Tengsin, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10220, Indonesia",
+      "geometry": {
+        "location": {
+          "lat": -6.202145700000001,
+          "lng": 106.8174524
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -6.200621520107279,
+            "lng": 106.8188428298927
+          },
+          "southwest": {
+            "lat": -6.203321179892723,
+            "lng": 106.8161431701073
+          }
+        }
+      },
+      "name": "Marketing Office Wisma 46 - Kota BNI"
+    }
+  ],
+  "status": "OK"
+}

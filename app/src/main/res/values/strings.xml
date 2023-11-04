@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AirMaps</string>
+    <string name="add_location">Add Location</string>
+    <string name="back_button">Back Button\n</string>
+    <string name="logo">Logo</string>
+    <string name="data_by">Data by:</string>
+    <string name="button_icon">Button Icon</string>
+    <string name="pick_location">Pick Location</string>
+    <string name="empty_location">Empty Location</string>
+    <string name="empty_location_description">Click “+” button below to add a new Location.</string>
+    <string name="location_name">Location Name</string>
+    <string name="home">Home</string>
+    <string name="use_current_location">Use Current Location</string>
+    <string name="save">Save</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="add_location_success">Add location success!</string>
+    <string name="delete_location_success">Delete location success!</string>
+    <string name="edit_location">Edit Location</string>
+    <string name="edit_location_success">Edit location success!</string>
+    <string name="detail_location">Detail Location</string>
+    <string name="search_location">Search Location</string>
+    <string name="no_location_data">No Location Data</string>
+    <string name="no_location_data_description">Try another keyword.</string>
+    <string name="enter_location_name">Enter Location Name</string>
+    <string name="icon">Icon</string>
+</resources>

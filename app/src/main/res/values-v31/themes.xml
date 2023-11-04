@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.AirMaps" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary</item>
+        <item name="android:windowSplashScreenBackground">@color/primary</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_branding</item>
+    </style>
+</resources>
