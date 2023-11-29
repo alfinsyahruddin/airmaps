@@ -37,7 +37,7 @@ class AppHttpClient {
                     }
 
                     https {
-                        trustManager = MyTrustManager(this)
+                        trustManager = AppTrustManager(this)
                     }
                 }
 
@@ -57,7 +57,7 @@ class AppHttpClient {
 }
 
 
-class MyTrustManager(private val config: TLSConfigBuilder) : X509TrustManager {
+class AppTrustManager(private val config: TLSConfigBuilder) : X509TrustManager {
     private val delegate = config.build().trustManager
 
     override fun checkClientTrusted(certificates: Array<out X509Certificate>?, authType: String?) {}

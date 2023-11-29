@@ -1,5 +1,6 @@
 package dev.alfin.airmaps.modules.presentation.components
 
+import android.content.res.Configuration
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -81,6 +82,24 @@ fun SearchTextFieldPreview() {
     AppTheme {
         Surface(
             color = Color.White
+        ) {
+            Surface(
+                modifier = Modifier.padding(16.dp)
+            ) {
+                SearchTextField(
+                    placeholder = stringResource(R.string.enter_location_name)
+                )
+            }
+        }
+    }
+}
+
+@Preview(uiMode = Configuration.UI_MODE_NIGHT_YES)
+@Composable
+fun SearchTextFieldDarkPreview() {
+    AppTheme {
+        Surface(
+            color = MaterialTheme.colorScheme.background
         ) {
             Surface(
                 modifier = Modifier.padding(16.dp)
